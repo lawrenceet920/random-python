@@ -26,9 +26,9 @@ print(fruits[random.randrange(0, len(fruits)) - 1])
 
 # Part 5
 students = ['Ethan', 'Matthew', 'Trent', 'Dax', 'PJ']
-len(students)
-for x in students:
-    print(f'{x} Scored a {random.randint(0, 100)}')
+num_students = len(students)
+for student in students:
+    print(f'{student} scored a {random.randint(0, 100)}')
 
 # Part 6
 
